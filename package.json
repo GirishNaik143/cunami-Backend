@@ -1,0 +1,33 @@
+{
+  "name": "cookbuk",
+  "version": "1.0.0",
+  "description": "Cookbuk Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Cookbuk .inc",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-session": "^1.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "git": "^0.1.5",
+    "loopback": "^3.25.1",
+    "loopback-boot": "^2.27.1",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sqlite3": "^4.0.6"
+  }
+}
